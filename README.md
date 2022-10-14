@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+# Sample Custom Contract ERC721 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This custom contract is an ERC721 compatible with Paper. It is configured to be deployed onto the Georli testnet using Alchemy. To get started, all you need is an Alchemy Key and a Private Key associated with you own wallet.
 
 Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+npx hardhat compile
+npx hardhat deploy
+npx hardhat verify $CONTRACT_ADDRESS
